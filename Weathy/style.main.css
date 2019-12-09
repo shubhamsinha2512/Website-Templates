@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.head{
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.head *{
+    display: inline-block;
+}
+
+.logo{
+    width:25%;
+}
+
+.nav{
+    position: relative;
+    top:-15px;
+    left: 60px;
+}
+
+.navlist{
+    
+}
+
+.navlinks{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.navlinks:last-child{
+    background-color: white;
+    color: #444;
+    border-radius: 100px;
+}
+
+.navlinks:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: #444;
+    border-radius: 100px;
+}
+
+.whitetext{
+    color: white;
+}
+
+.main{
+    position: relative;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    top: -350px;
+    height: 350px;
+}
+
+.toptext{
+    width: 50%;
+}
+
+.toptext *{
+    line-height: 2;
+}
+
+.headingline{
+    font-size: 40px;
+}
+
+.desc{
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.smalldesc{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.mobile{
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+    top: -250px;
+    left:600px;
+    box-shadow: 5px 5px 10px #111;
+}
+
+.blacktext{
+    color: black;
+}
+
+.middlecontainer{
+    position: relative;
+    top: -120px;
+}
+
+.subhead{
+    color: #aaa;
+    font-size: 18px;
+    margin:15px 0;
+}
+
+.descbody{
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content{
+    width:70%;
+}
+
+.laptop{
+    width: 40%;
+    position: relative;
+    top: -130px;
+    left:620px;
+}
+
+.foot{
+    background-color: #333333;
+    padding: 30px;
+    color:#888888;
+    font-size: 14px;
+    position: relative;
+}
+
+
+.footlist{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footlists{
+    
+    list-style: none;
+    margin: 0 30px;
+}
+
+.footlists a{
+    text-decoration: none;
+    color:#888888;
+    font-size: 12px;
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+.footlists a:hover{
+    color: #555;
+}
+
+.copy{
+    text-align: center;
+}
